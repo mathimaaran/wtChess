@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configurationDescriptor version="95">
+  <logicalFolder name="root" displayName="root" projectFiles="true" kind="ROOT">
+    <logicalFolder name="HeaderFiles"
+                   displayName="Header Files"
+                   projectFiles="true">
+    </logicalFolder>
+    <logicalFolder name="ResourceFiles"
+                   displayName="Resource Files"
+                   projectFiles="true">
+    </logicalFolder>
+    <logicalFolder name="SourceFiles"
+                   displayName="Source Files"
+                   projectFiles="true">
+      <logicalFolder name="Service" displayName="Service" projectFiles="true">
+        <itemPath>Service/SFController.cpp</itemPath>
+        <itemPath>Service/SFController.h</itemPath>
+        <itemPath>Service/SFProcessPool.cpp</itemPath>
+        <itemPath>Service/SFProcessPool.h</itemPath>
+      </logicalFolder>
+      <logicalFolder name="UI" displayName="UI" projectFiles="true">
+        <itemPath>UI/SetFENPopup.cpp</itemPath>
+        <itemPath>UI/SetFENPopup.h</itemPath>
+        <itemPath>UI/TrainingWidget.cpp</itemPath>
+        <itemPath>UI/TrainingWidget.h</itemPath>
+        <itemPath>UI/WChessWidget.cpp</itemPath>
+        <itemPath>UI/WChessWidget.h</itemPath>
+      </logicalFolder>
+      <itemPath>main.cpp</itemPath>
+    </logicalFolder>
+    <logicalFolder name="TestFiles"
+                   displayName="Test Files"
+                   projectFiles="false"
+                   kind="TEST_LOGICAL_FOLDER">
+    </logicalFolder>
+    <logicalFolder name="ExternalFiles"
+                   displayName="Important Files"
+                   projectFiles="false"
+                   kind="IMPORTANT_FILES_FOLDER">
+      <itemPath>Makefile</itemPath>
+    </logicalFolder>
+  </logicalFolder>
+  <sourceRootList>
+    <Elem>Service</Elem>
+    <Elem>UI</Elem>
+  </sourceRootList>
+  <projectmakefile>Makefile</projectmakefile>
+  <confs>
+    <conf name="Debug" type="1">
+      <toolsSet>
+        <compilerSet>default</compilerSet>
+        <dependencyChecking>true</dependencyChecking>
+        <rebuildPropChanged>false</rebuildPropChanged>
+      </toolsSet>
+      <compileType>
+        <ccTool>
+          <incDir>
+            <pElem>/usr/local/include</pElem>
+          </incDir>
+          <commandLine>-std=c++11</commandLine>
+        </ccTool>
+        <linkerTool>
+          <linkerAddLib>
+            <pElem>/usr/local/lib</pElem>
+          </linkerAddLib>
+          <commandLine>-lwt -lwthttp -l:libboost_thread.so.1.74.0 -lpthread</commandLine>
+        </linkerTool>
+      </compileType>
+      <item path="Service/SFController.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="Service/SFController.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Service/SFProcessPool.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="Service/SFProcessPool.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="UI/SetFENPopup.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="UI/SetFENPopup.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="UI/TrainingWidget.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="UI/TrainingWidget.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="UI/WChessWidget.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="UI/WChessWidget.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="main.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+    </conf>
+    <conf name="Release" type="1">
+      <toolsSet>
+        <compilerSet>default</compilerSet>
+        <dependencyChecking>true</dependencyChecking>
+        <rebuildPropChanged>false</rebuildPropChanged>
+      </toolsSet>
+      <compileType>
+        <cTool>
+          <developmentMode>5</developmentMode>
+        </cTool>
+        <ccTool>
+          <developmentMode>5</developmentMode>
+          <incDir>
+            <pElem>/usr/local/include</pElem>
+          </incDir>
+          <commandLine>-std=c++11</commandLine>
+        </ccTool>
+        <fortranCompilerTool>
+          <developmentMode>5</developmentMode>
+        </fortranCompilerTool>
+        <asmTool>
+          <developmentMode>5</developmentMode>
+        </asmTool>
+        <linkerTool>
+          <linkerAddLib>
+            <pElem>/usr/local/lib</pElem>
+          </linkerAddLib>
+          <commandLine>-lwt -lwthttp -l:libboost_thread.so.1.74.0 -lpthread</commandLine>
+        </linkerTool>
+      </compileType>
+      <item path="Service/SFController.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="Service/SFController.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Service/SFProcessPool.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="Service/SFProcessPool.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="UI/SetFENPopup.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="UI/SetFENPopup.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="UI/TrainingWidget.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="UI/TrainingWidget.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="UI/WChessWidget.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="UI/WChessWidget.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="main.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+    </conf>
+  </confs>
+</configurationDescriptor>
